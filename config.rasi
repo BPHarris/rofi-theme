@@ -1,0 +1,37 @@
+/**
+ * Rofi Config
+ *
+ * See: https://www.mankier.com/1/rofi
+ * Author: bpharris (bpharris@pm.me)
+ */
+
+configuration {
+	modi: "drun,window";
+	theme: "bpharris";
+	font: "Source Code Pro 16";
+	combi-modi: "drun,window";
+	
+	/** Search **/
+	matching: "fuzzy";
+	
+	/** Location **/
+	// Set screen location
+	//   1 2 3
+	//   8 0 4
+	//   7 6 8
+	location: 2;
+	
+	/** Fullscreen **/
+	fullscreen: false;
+	
+	/** Icons **/
+	// Uses DE icon theme by default
+	show-icons: false;
+	
+	/** Number of lines **/
+	// Set to dynamic number of lines
+	fixed-num-lines: false;
+	// Set max. number of lines
+	lines: 10;
+}
+
